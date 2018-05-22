@@ -1,0 +1,26 @@
+{
+  "name": "ardock-fork-async-restore",
+  "version": "1.0.0",
+  "description": "arDock module to restore previous calculations, use Thread and pure async operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GL",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "glob": "^7.1.2",
+    "jsonfile": "^4.0.0",
+    "pdb-lib": "^2.0.6"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "ardock-fork-async-restore"
+  }
+}
