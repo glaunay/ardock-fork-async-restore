@@ -16,7 +16,7 @@ function restore(keyID, cacheDir, squeueBin, pCount) {
   };
   let parameters = ['-c', cacheDir ,'-k', keyID ,'-s', squeueBin];
   if (pCount) parameters = parameters.concat(['-p', pCount]);
-  const child = fork('./lib/childProcess.js', parameters, options);
+  const child = fork(__dirname + '/lib/childProcess.js', parameters, options);
   child.on('message', message => {
    
     if(!message.hasOwnProperty('status'))
