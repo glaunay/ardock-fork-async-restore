@@ -1,6 +1,6 @@
 {
   "name": "ardock-fork-async-restore",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "arDock module to restore previous calculations, use Thread and pure async operations",
   "main": "index.js",
   "scripts": {
