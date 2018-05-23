@@ -1,6 +1,6 @@
 
-let globAsyncRestore = require('../index.js');
-let parser = require('../lib/parser.js').parser;
+let globAsyncRestore = require('./index.js');
+let parser = require('./lib/parser.js').parser;
 /*
     Prototype of a MicroService jobManager 
     Testing engine 
