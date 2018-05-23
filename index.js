@@ -27,7 +27,7 @@ function restore(keyID, cacheDir, squeueBin, pCount) {
       pdbAsStream.push(message.pdbObjAsString);
       pdbAsStream.push(null);
       pdbLib.parse({rStream : pdbAsStream}).on('end', function(pdbObj) { 
-        emiter.emit('completed', message.jobStatus, pdbObj);
+        emiter.emit('completed', pdbObj, message.jobStatus.completed.length);
         });
     }
     else if (message.status === 'errJobs'){
